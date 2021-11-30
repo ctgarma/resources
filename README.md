@@ -35,4 +35,7 @@ const getDataPromise = (file) => {
   });
 }
 
- 
+# Resources on PM2
+
+https://pm2.keymetrics.io/docs/usage/quick-start/
+
