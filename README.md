@@ -25,6 +25,7 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 # Converting a callback to a Promise
 
 const getDataPromise = (file) => {
+
   return new Promise ((resolve, reject) => {    
     someUtily.getDataCallback(file, options, (err, data) => {
       if (err) return reject(err)
