@@ -16,10 +16,25 @@ install docker for desktop
 
 docker pull jenkins/jenkins:lts
 
-docker run --detach --publish 8080:8080 --volume
-jenkins_home:/var/jenkins_home --name jenkins jenkins/jenkins:lts
+docker run --detach --publish 8080:8080 --volume jenkins_home:/var/jenkins_home --name jenkins jenkins/jenkins:lts
 
 docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
+
+
+# Docker command 
+
+docker --version
+docker ps.      /* list all containers */
+
+/* stop a container. */
+docker stop <container Id>
+  
+/* list all volumes */
+docker volume ls
+
+/* remove all unused volumes */  
+docker volume prune
+
 
 
 # Converting a callback to a Promise
