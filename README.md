@@ -53,3 +53,8 @@ const getDataPromise = (file) => {
 
 https://pm2.keymetrics.io/docs/usage/quick-start/
 
+# Date utility for frontend used in my angular projects can also be used for node
+
+https://date-fns.org/
+
+
